@@ -40,7 +40,7 @@ export const HW4 = () => {
         {texts.map((el, index) => {
             debugger
           return (
-            <li key={index} id={`hw04-task-${index}`} className={index % 2 == 0? '.chetNechet' : ''}>
+            <li key={index} id={`hw04-task-${index}`} className={index % 2 == 0? 'chetNechet' : ''}>
               {el}
             </li>
           );
