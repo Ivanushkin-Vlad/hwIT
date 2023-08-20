@@ -1,5 +1,6 @@
 import {ChangeEvent} from "react";
 
+
 type InputPropsType = {
 	currentText: string // НУЖНО ПРОТИПИЗИРОВАТЬ
 	setCurrentText: (event : string) => void // НУЖНО ПРОТИПИЗИРОВАТЬ
